@@ -1,22 +1,33 @@
 {
-  "name": "with-typescript",
-  "version": "1.0.0",
-  "scripts": {
-    "dev": "next",
-    "build": "next build",
-    "start": "next start",
-    "type-check": "tsc"
-  },
-  "dependencies": {
-    "next": "latest",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0"
-  },
-  "devDependencies": {
-    "@types/node": "^12.12.21",
-    "@types/react": "^16.9.16",
-    "@types/react-dom": "^16.9.4",
-    "typescript": "3.7.3"
-  },
-  "license": "ISC"
+	"name": "with-typescript",
+	"description": "boilerplate starter for a backend with ts-node, typeorm, postgres, pgadmin and docker",
+	"author": "Caleb Lovell",
+	"version": "0.0.1",
+	"license": "MIT",
+	"scripts": {
+		"dev": "next",
+		"build": "next build",
+		"start": "next start",
+		"type-check": "tsc",
+		"pretty": "prettier pages components interfaces utils .eslintrc.js --write",
+		"linty": "eslint pages components interfaces utils .eslintrc.js --fix"
+	},
+	"dependencies": {
+		"next": "latest",
+		"react": "^16.12.0",
+		"react-dom": "^16.12.0"
+	},
+	"devDependencies": {
+		"@types/node": "^12.12.21",
+		"@types/react": "^16.9.16",
+		"@types/react-dom": "^16.9.4",
+		"@typescript-eslint/eslint-plugin": "^3.6.0",
+		"@typescript-eslint/parser": "^3.6.0",
+		"eslint": "^7.4.0",
+		"eslint-config-prettier": "^6.11.0",
+		"eslint-plugin-prettier": "^3.1.4",
+		"eslint-plugin-react": "^7.20.3",
+		"prettier": "^2.0.5",
+		"typescript": "3.7.3"
+	}
 }
