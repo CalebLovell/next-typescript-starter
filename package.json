@@ -1,6 +1,6 @@
 {
-	"name": "with-typescript",
-	"description": "boilerplate starter for a backend with ts-node, typeorm, postgres, pgadmin and docker",
+	"name": "next-typescript-starter",
+	"description": "boilerplate starter for frontend using Next and TypeScript",
 	"author": "Caleb Lovell",
 	"version": "0.0.1",
 	"license": "MIT",
